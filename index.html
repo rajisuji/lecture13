@@ -12,7 +12,8 @@
 
 <p>Original : {{ sayHello() }}</p>
 <p> Modified : {{ sayLovesHello() }}</p>
-
+<p> Truth : {{ sayLovesHello() | truth : 'healthy' : 'Cookie' }}</p>
+<p> Big Truth : {{ sayLovesHello() | truth : 'healthy' : 'Cookie' | uppercase }}</p>
         </div>
 
     </body>
